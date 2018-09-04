@@ -1,0 +1,19 @@
+{
+  "name": "norbit-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genezablan/norbit-lambda.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/genezablan/norbit-lambda/issues"
+  },
+  "homepage": "https://github.com/genezablan/norbit-lambda#readme"
+}
