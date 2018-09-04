@@ -4,10 +4,10 @@ phases:
   install:
     commands:
       - npm install time
-      - aws cloudformation package --template-file template-file.yaml  --s3-bucket norbit-production 
-                                   --output-template-file outputSamTemplate.yaml
+      - aws cloudformation package --template-file template.yaml  --s3-bucket norbit-production 
+                                   --output-template-file output.yaml
 artifacts:
   type: zip
   files:
     - template.yaml
-    - outputSamTemplate.yaml
+    - output.yaml
